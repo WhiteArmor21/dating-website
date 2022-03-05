@@ -1,0 +1,43 @@
+{
+  "administrators": [
+    {
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "users": [
+    {
+      "username": "man",
+      "password": "man",
+      "gender": "M",
+      "first_name": "man",
+      "last_name": "person",
+      "email": "man@mail.com",
+      "images": [
+        {"image":"image.jpg", "is_main": "true", "is_approved": "true", "title": "man photo"}
+      ]
+    },
+    {
+      "username": "woman",
+      "password": "woman",
+      "gender": "F",
+      "first_name": "woman",
+      "last_name": "person",
+      "email": "woman@mail.com",
+      "images": [
+        {"image":"image.jpg", "is_main": "true", "is_approved": "true", "title": "woman photo"}
+      ]
+    },
+    {
+      "username": "other",
+      "password": "other",
+      "gender": "O",
+      "first_name": "other",
+      "last_name": "person",
+      "email": "other@mail.com",
+      "images": [
+        {"image":"image.jpg", "is_main": "true", "is_approved": "true", "title": "other photo"}
+      ]
+    }
+  ]
+}
